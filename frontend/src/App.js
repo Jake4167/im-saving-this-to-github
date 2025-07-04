@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Timeline from "./components/Timeline";
+import EventDetailPage from "./components/EventDetailPage";
 import { Toaster } from "./components/ui/toaster";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Timeline />} />
+          <Route path="/event/:id" element={<EventDetailPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster />
