@@ -345,8 +345,20 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["26", "27", "28"],
+    relatedEvents: ["26", "27", "28", "30"],
     details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during the chaos of the ongoing civil war between Rac supporters and NoahJaySweet loyalists, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. Exploiting the power vacuum created by the civil conflict, Jake's forces moved swiftly to capture key strategic locations and neutralize both warring factions. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
+  },
+  {
+    id: "30",
+    date: "2025-07-20",
+    title: "Nuclear Apocalypse",
+    description: "The three warring factions - Rac supporters, NoahJaySweet loyalists, and Jake's regime - acquired nuclear weapons, leading to mutual destruction and the complete annihilation of the Democratic Simulation world.",
+    category: "Crisis",
+    parties: ["Rac Supporters", "TPA", "Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "29"],
+    details: "In the final catastrophic chapter of the Democratic Simulation, the three-way conflict escalated beyond all control when each faction secretly acquired nuclear weapons. Rac supporters, still claiming to be the legitimate government, obtained nuclear capabilities through underground networks. NoahJaySweet loyalists and remaining TPA forces secured their own nuclear arsenal to defend against both Jake's dictatorship and Rac's rebellion. Jake's authoritarian regime, paranoid about losing power, rapidly expanded their nuclear program. The fragile balance of terror lasted only days before a miscalculation triggered the first nuclear exchange. Within hours, all three factions had launched their entire arsenals in a devastating chain reaction of mutual assured destruction. The Democratic Simulation world was reduced to radioactive ash, marking the absolute end of the political experiment. No survivors remained to rebuild, and the once-thriving democratic society became a cautionary tale of how political division can lead to ultimate annihilation."
   }
 ];
 
