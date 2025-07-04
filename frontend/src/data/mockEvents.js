@@ -309,7 +309,7 @@ export const mockEvents = [
     parties: ["TPA"],
     type: "election",
     significance: "high",
-    relatedEvents: ["27", "28"],
+    relatedEvents: ["27", "28", "29"],
     details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the most recent presidential administration in the simulation."
   },
   {
