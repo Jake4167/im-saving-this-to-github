@@ -321,11 +321,23 @@ export const mockEvents = [
     parties: ["Rac Supporters"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["26", "28"],
+    relatedEvents: ["26", "28", "29"],
     details: "In a shocking escalation of political tensions, supporters of defeated presidential candidate Rac organized a massive protest that turned into a capital storming incident. Claiming widespread election fraud in the July 2025 election, hundreds of Rac supporters breached security and occupied the capital building for several hours. President Noah Jay Sweet, Vice President Nepotism, and TPA members were forced to evacuate to secure locations. The crisis led to a complete shutdown of government operations and raised serious questions about the stability of the democratic system. Security forces eventually regained control, but the event marked a turning point in the simulation's political landscape."
   },
   {
     id: "28",
+    date: "2025-07-10",
+    title: "Civil War Erupts",
+    description: "Armed conflict broke out between Rac supporters and NoahJaySweet loyalists, plunging the Democratic Simulation into civil war as both factions claimed legitimate authority.",
+    category: "Crisis",
+    parties: ["Rac Supporters", "TPA"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["26", "27", "29"],
+    details: "Following the Capital Storm Crisis, tensions escalated dramatically as Rac supporters refused to recognize the legitimacy of President Noah Jay Sweet's government. Armed militias formed on both sides, with Rac supporters establishing a parallel government claiming to be the 'true' Democratic Simulation authority. NoahJaySweet loyalists, backed by TPA members and government forces, fought to maintain constitutional order. The conflict divided the simulation into two warring factions, with battles erupting across multiple regions. Infrastructure was severely damaged, democratic institutions collapsed, and the rule of law completely broke down. The civil war created a power vacuum that would ultimately enable Jake's rise to power."
+  },
+  {
+    id: "29",
     date: "2025-07-15",
     title: "Jake Coup",
     description: "Jake successfully overthrew the Democratic Simulation government in a dramatic coup, establishing a dictatorship and ending the democratic experiment.",
@@ -333,8 +345,8 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["26", "27"],
-    details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during a period of political instability following the Capital Storm Crisis, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
+    relatedEvents: ["26", "27", "28"],
+    details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during the chaos of the ongoing civil war between Rac supporters and NoahJaySweet loyalists, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. Exploiting the power vacuum created by the civil conflict, Jake's forces moved swiftly to capture key strategic locations and neutralize both warring factions. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
   }
 ];
 
