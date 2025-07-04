@@ -309,11 +309,23 @@ export const mockEvents = [
     parties: ["TPA"],
     type: "election",
     significance: "high",
-    relatedEvents: ["27"],
+    relatedEvents: ["27", "28"],
     details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the most recent presidential administration in the simulation."
   },
   {
     id: "27",
+    date: "2025-07-06",
+    title: "Capital Storm Crisis",
+    description: "Rac supporters, claiming election fraud, stormed the capital building in a dramatic uprising, forcing the evacuation of President Noah Jay Sweet, VP Nepotism, and TPA members.",
+    category: "Crisis",
+    parties: ["Rac Supporters"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["26", "28"],
+    details: "In a shocking escalation of political tensions, supporters of defeated presidential candidate Rac organized a massive protest that turned into a capital storming incident. Claiming widespread election fraud in the July 2025 election, hundreds of Rac supporters breached security and occupied the capital building for several hours. President Noah Jay Sweet, Vice President Nepotism, and TPA members were forced to evacuate to secure locations. The crisis led to a complete shutdown of government operations and raised serious questions about the stability of the democratic system. Security forces eventually regained control, but the event marked a turning point in the simulation's political landscape."
+  },
+  {
+    id: "28",
     date: "2025-07-15",
     title: "Jake Coup",
     description: "Jake successfully overthrew the Democratic Simulation government in a dramatic coup, establishing a dictatorship and ending the democratic experiment.",
@@ -321,8 +333,8 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["26"],
-    details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during a period of political instability, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
+    relatedEvents: ["26", "27"],
+    details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during a period of political instability following the Capital Storm Crisis, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
   }
 ];
 
