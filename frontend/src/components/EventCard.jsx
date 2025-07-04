@@ -1,8 +1,10 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
+import { Button } from './ui/button';
 import { Calendar, Users, ExternalLink } from 'lucide-react';
 import { format } from 'date-fns';
+import { Link } from 'react-router-dom';
 
 const EventCard = ({ event, onEventClick, parties, categories }) => {
   const getPartyColor = (partyName) => {
@@ -26,9 +28,8 @@ const EventCard = ({ event, onEventClick, parties, categories }) => {
 
   return (
     <Card 
-      className="mb-4 cursor-pointer hover:shadow-lg transition-all duration-300 border-l-4 hover:scale-[1.02] transform"
+      className="mb-4 hover:shadow-lg transition-all duration-300 border-l-4 hover:scale-[1.02] transform"
       style={{ borderLeftColor: getCategoryColor(event.type) }}
-      onClick={() => onEventClick(event)}
     >
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between">
@@ -53,7 +54,7 @@ const EventCard = ({ event, onEventClick, parties, categories }) => {
         <p className="text-gray-700 mb-3 line-clamp-2">
           {event.description}
         </p>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
             <Users className="w-4 h-4 text-gray-500" />
             <div className="flex gap-1 flex-wrap">
@@ -84,6 +85,22 @@ const EventCard = ({ event, onEventClick, parties, categories }) => {
               {event.relatedEvents.length} related
             </div>
           )}
+        </div>
+        
+        {/* Action Buttons */}
+        <div className="flex gap-2">
+          <Link to={`/event/${event.id}`} className="flex-1">
+            <Button variant="default" className="w-full">
+              View Full Page
+            </Button>
+          </Link>
+          <Button 
+            variant="outline" 
+            onClick={() => onEventClick(event)}
+            className="px-4"
+          >
+            Quick View
+          </Button>
         </div>
       </CardContent>
     </Card>
