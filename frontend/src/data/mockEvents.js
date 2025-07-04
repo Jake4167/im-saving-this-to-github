@@ -321,8 +321,8 @@ export const mockEvents = [
     parties: ["Rac Supporters"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["26", "28", "29"],
-    details: "In a shocking escalation of political tensions, supporters of defeated presidential candidate Rac organized a massive protest that turned into a capital storming incident. Claiming widespread election fraud in the July 2025 election, hundreds of Rac supporters breached security and occupied the capital building for several hours. President Noah Jay Sweet, Vice President Nepotism, and TPA members were forced to evacuate to secure locations. The crisis led to a complete shutdown of government operations and raised serious questions about the stability of the democratic system. Security forces eventually regained control, but the event marked a turning point in the simulation's political landscape."
+    relatedEvents: ["26", "28", "29", "30"],
+    details: "In a shocking escalation of political tensions, supporters of defeated presidential candidate Rac organized a massive protest that turned into a capital storming incident. Claiming widespread election fraud in the July 2025 election, hundreds of Rac supporters breached security and occupied the capital building for several hours. President Noah Jay Sweet, Vice President Nepotism, and TPA members were forced to evacuate to secure locations. The crisis led to a complete shutdown of government operations and raised serious questions about the stability of the democratic system. Security forces eventually regained control, but the event marked a turning point in the simulation's political landscape and the beginning of the end for democratic governance."
   },
   {
     id: "28",
