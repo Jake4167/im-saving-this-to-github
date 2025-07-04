@@ -333,8 +333,8 @@ export const mockEvents = [
     parties: ["Rac Supporters", "TPA"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["26", "27", "29"],
-    details: "Following the Capital Storm Crisis, tensions escalated dramatically as Rac supporters refused to recognize the legitimacy of President Noah Jay Sweet's government. Armed militias formed on both sides, with Rac supporters establishing a parallel government claiming to be the 'true' Democratic Simulation authority. NoahJaySweet loyalists, backed by TPA members and government forces, fought to maintain constitutional order. The conflict divided the simulation into two warring factions, with battles erupting across multiple regions. Infrastructure was severely damaged, democratic institutions collapsed, and the rule of law completely broke down. The civil war created a power vacuum that would ultimately enable Jake's rise to power."
+    relatedEvents: ["26", "27", "29", "30"],
+    details: "Following the Capital Storm Crisis, tensions escalated dramatically as Rac supporters refused to recognize the legitimacy of President Noah Jay Sweet's government. Armed militias formed on both sides, with Rac supporters establishing a parallel government claiming to be the 'true' Democratic Simulation authority. NoahJaySweet loyalists, backed by TPA members and government forces, fought to maintain constitutional order. The conflict divided the simulation into two warring factions, with battles erupting across multiple regions. Infrastructure was severely damaged, democratic institutions collapsed, and the rule of law completely broke down. The civil war created a power vacuum that would ultimately enable Jake's rise to power and set the stage for the final nuclear catastrophe."
   },
   {
     id: "29",
