@@ -309,8 +309,20 @@ export const mockEvents = [
     parties: ["TPA"],
     type: "election",
     significance: "high",
-    relatedEvents: [],
+    relatedEvents: ["27"],
     details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the most recent presidential administration in the simulation."
+  },
+  {
+    id: "27",
+    date: "2025-07-15",
+    title: "Jake Coup",
+    description: "Jake successfully overthrew the Democratic Simulation government in a dramatic coup, establishing a dictatorship and ending the democratic experiment.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["26"],
+    details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during a period of political instability, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
   }
 ];
 
