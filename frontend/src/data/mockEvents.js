@@ -352,7 +352,8 @@ export const parties = [
   { id: "sdp", name: "Social Democratic Party", color: "#dc2626", status: "active" },
   { id: "ndp", name: "New Dawn Party", color: "#b91c1c", status: "active" },
   { id: "aj", name: "Action Julienne", color: "#1d4ed8", status: "active" },
-  { id: "independent", name: "Independent", color: "#6b7280", status: "active" }
+  { id: "independent", name: "Independent", color: "#6b7280", status: "active" },
+  { id: "rac_supporters", name: "Rac Supporters", color: "#dc2626", status: "active" }
 ];
 
 export const categories = [
