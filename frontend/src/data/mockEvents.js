@@ -393,7 +393,7 @@ export const mockEvents = [
     parties: ["TPA", "SDP"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "30", "31", "32", "34"],
+    relatedEvents: ["27", "28", "29", "30", "31", "32", "34", "35"],
     details: "On what should have been a historic election day between President Noah Jay Sweet (TPA) and former Vice President The Devourer of Intellegence (SDP), the nation was plunged into chaos when coordinated terrorist attacks struck 12 major polling stations across the country. The attacks began at 9:47 AM with simultaneous explosions at voting centers in the capital district, followed by sniper attacks targeting election officials and security personnel. Among the casualties were Secretary of Elections Maria Santos, Supreme Court Justice Robert Chen, and Senate Majority Leader Thompson Williams, all killed by precision sniper fire. The attackers used the same sophisticated methods seen in the presidential assassinations: military-grade explosives, untraceable poisons, and professional marksmanship. At 2:15 PM, a manifesto was broadcast on all major networks by a group calling themselves 'The Constitutional Purifiers' - finally revealing the identity of the organization behind the systematic elimination of former presidents. The group declared their intention to 'cleanse the corrupted democratic system' and establish a new order. The election was immediately suspended, martial law was declared, and a nationwide manhunt began for the terrorist organization that had terrorized the nation for months."
   },
   {
