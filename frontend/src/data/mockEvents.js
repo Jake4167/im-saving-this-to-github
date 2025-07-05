@@ -393,8 +393,20 @@ export const mockEvents = [
     parties: ["TPA", "SDP"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "30", "31", "32"],
+    relatedEvents: ["27", "28", "29", "30", "31", "32", "34"],
     details: "On what should have been a historic election day between President Noah Jay Sweet (TPA) and former Vice President The Devourer of Intellegence (SDP), the nation was plunged into chaos when coordinated terrorist attacks struck 12 major polling stations across the country. The attacks began at 9:47 AM with simultaneous explosions at voting centers in the capital district, followed by sniper attacks targeting election officials and security personnel. Among the casualties were Secretary of Elections Maria Santos, Supreme Court Justice Robert Chen, and Senate Majority Leader Thompson Williams, all killed by precision sniper fire. The attackers used the same sophisticated methods seen in the presidential assassinations: military-grade explosives, untraceable poisons, and professional marksmanship. At 2:15 PM, a manifesto was broadcast on all major networks by a group calling themselves 'The Constitutional Purifiers' - finally revealing the identity of the organization behind the systematic elimination of former presidents. The group declared their intention to 'cleanse the corrupted democratic system' and establish a new order. The election was immediately suspended, martial law was declared, and a nationwide manhunt began for the terrorist organization that had terrorized the nation for months."
+  },
+  {
+    id: "34",
+    date: "2025-08-02",
+    title: "Capitol Building Tank Attack and Mass Insurgency",
+    description: "The Constitutional Purifiers insurgency, now revealed to be 2 million strong, launched a devastating tank assault on the main Julian capitol building, killing 50 government officials and wounding 243. Insurgent uprisings erupted simultaneously across the entire nation.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "29", "30", "31", "32", "33"],
+    details: "In a shocking escalation that revealed the true scope of The Constitutional Purifiers movement, what intelligence agencies had believed was a small terrorist cell was exposed as a massive 2-million strong insurgency spanning the entire nation. At 6:23 AM, a stolen military tank crashed through the reinforced barriers of the main Julian capitol building, detonating a massive explosive payload in the central rotunda during morning legislative sessions. The attack killed 50 high-ranking government officials, including 12 senators, 8 cabinet members, and 30 staff members, while wounding 243 others in the devastating blast and subsequent building collapse. Simultaneously, coordinated insurgent uprisings erupted in all major cities across Julia, with armed Constitutional Purifier militias seizing control of government buildings, police stations, and military depots. The insurgents, wearing distinctive black and gold uniforms, demonstrated sophisticated military tactics and equipment, suggesting years of secret preparation and organization. Communication networks were systematically targeted, leaving entire regions cut off from government control. President Noah Jay Sweet and surviving government officials were evacuated to an undisclosed secure location as the capital fell under insurgent siege. The revelation that 2 million citizens - nearly 15% of the population - had joined the extremist movement sent shockwaves through the remaining loyal government forces and international observers."
   }
 ];
 
