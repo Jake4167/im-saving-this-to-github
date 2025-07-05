@@ -357,7 +357,7 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "30", "32"],
+    relatedEvents: ["27", "28", "29", "30", "32", "33"],
     details: "Junk_Trash, who served as the 5th President for 50 days (April 11 - June 1, 2025), was killed by a precision drone strike while attending a private party at a friend's estate. The small, sophisticated drone delivered an explosive payload directly to his location before immediately self-destructing. The attack demonstrated advanced technology and intelligence capabilities, suggesting state-level resources. With five former presidents now dead, the government declared a national security emergency. The systematic nature of the killings - using different methods each time - indicated a highly organized group with extensive planning and resources."
   },
   {
