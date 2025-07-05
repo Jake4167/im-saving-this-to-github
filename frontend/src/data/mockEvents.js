@@ -225,7 +225,7 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["28", "29", "30", "31", "32"],
+    relatedEvents: ["28", "29", "30", "31", "32", "33"],
     details: "Blight, who served as Julia's first President from January 12, 2025, was assassinated at his private residence by an unknown sniper. The precision of the attack and the lack of any clear motive suggested professional involvement. Security forces found no evidence at the scene, and the killer's identity remained unknown. The assassination sent shockwaves through the political establishment, as it marked the first time a former president had been killed. Emergency security measures were immediately implemented for all current and former government officials."
   },
   {
