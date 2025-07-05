@@ -385,7 +385,6 @@ export const mockEvents = [
     details: "Veternitzz, who had just completed his 30-day presidency (June 1 - July 1, 2025), was killed by a sniper while delivering a farewell speech at a public event. The shot came from over 800 meters away, demonstrating exceptional marksmanship. With this assassination, all six former presidents were now dead, completing what appeared to be a systematic elimination campaign. The timing - just four days after Noah Jay Sweet took office - suggested the group had waited to ensure all former presidents were out of power before completing their mission. The nation was in complete panic, with many calling for martial law and demanding immediate answers about who had orchestrated the unprecedented killing spree."
   }
 ];
-];
 
 export const parties = [
   { id: "uwp", name: "United Workers Party", color: "#dc2626", status: "dissolved" },
