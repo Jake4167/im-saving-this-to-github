@@ -357,8 +357,20 @@ export const mockEvents = [
     parties: ["Rac Supporters", "TPA", "Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29"],
+    relatedEvents: ["27", "28", "29", "31"],
     details: "In the final catastrophic chapter of the Democratic Simulation, the three-way conflict escalated beyond all control when each faction secretly acquired nuclear weapons. Rac supporters, still claiming to be the legitimate government, obtained nuclear capabilities through underground networks. NoahJaySweet loyalists and remaining TPA forces secured their own nuclear arsenal to defend against both Jake's dictatorship and Rac's rebellion. Jake's authoritarian regime, paranoid about losing power, rapidly expanded their nuclear program. The fragile balance of terror lasted only days before a miscalculation triggered the first nuclear exchange. Within hours, all three factions had launched their entire arsenals in a devastating chain reaction of mutual assured destruction. The Democratic Simulation world was reduced to radioactive ash, marking the absolute end of the political experiment. No survivors remained to rebuild, and the once-thriving democratic society became a cautionary tale of how political division can lead to ultimate annihilation."
+  },
+  {
+    id: "31",
+    date: "2025-07-25",
+    title: "Return of Former President Toast",
+    description: "In a miraculous turn of events, former President Toast emerged from a hidden underground bunker, having survived the nuclear apocalypse, and declared the restoration of democratic government.",
+    category: "Crisis",
+    parties: ["ISD"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["18", "30"],
+    details: "Five days after the nuclear apocalypse that seemingly ended all life in the Democratic Simulation, former President Toast_toast123 (ISD) emerged from a secret underground bunker that had been constructed during his presidency as a contingency measure. Toast, who had served as the 4th President and was known for his longest tenure of 42 days, had somehow anticipated the catastrophic events and prepared for the worst-case scenario. Upon emerging into the radioactive wasteland, Toast immediately declared himself the legitimate successor government and began broadcasting messages calling for any survivors to rally under the restored democratic banner. Using advanced radiation-resistant communication equipment from his bunker, Toast proclaimed the 'Phoenix Restoration' - a new democratic order rising from the ashes of the old simulation. His survival and return sparked both hope and controversy among the few scattered survivors, with some viewing him as a savior and others as an opportunist exploiting the apocalypse for power. This unprecedented event marked either the beginning of democratic restoration or the final act of political theater in the ruins of civilization."
   }
 ];
 
