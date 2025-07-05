@@ -217,6 +217,18 @@ export const mockEvents = [
     details: "Toast's presidency was marked by significant stability compared to previous short-lived administrations, lasting 42 days and overseeing important constitutional developments."
   },
   {
+    id: "27",
+    date: "2025-03-15",
+    title: "Death of President Blight",
+    description: "Former President Blight (1st President) was found dead in his residence, killed by a sniper's bullet. The assassination shocked the nation and raised immediate security concerns.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["28", "29", "30", "31", "32"],
+    details: "Blight, who served as Julia's first President from January 12, 2025, was assassinated at his private residence by an unknown sniper. The precision of the attack and the lack of any clear motive suggested professional involvement. Security forces found no evidence at the scene, and the killer's identity remained unknown. The assassination sent shockwaves through the political establishment, as it marked the first time a former president had been killed. Emergency security measures were immediately implemented for all current and former government officials."
+  },
+  {
     id: "19",
     date: "2025-03-24",
     title: "Election Deadline Crisis",
@@ -239,6 +251,18 @@ export const mockEvents = [
     significance: "high",
     relatedEvents: ["21"],
     details: "Junk_trash's presidency marked a period of relative stability with the longest term since the early presidencies, lasting 50 days."
+  },
+  {
+    id: "28",
+    date: "2025-04-20",
+    title: "Death of President Medieval",
+    description: "Former President Medieval (2nd President) was assassinated by a car bomb outside his office building. The similarity to Blight's murder sparked fears of a coordinated conspiracy.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "29", "30", "31", "32"],
+    details: "Medieval, who served as the 2nd President from February 17-27, 2025, was killed when a car bomb exploded as he approached his vehicle. The sophisticated explosive device was remotely detonated with military precision. Like Blight's assassination, no group claimed responsibility and no clear motive was established. The method differed from the sniper attack on Blight, suggesting the assassins were skilled in multiple killing techniques. Security experts began warning of a possible conspiracy targeting former presidents, leading to increased protection for all former and current officials."
   },
   {
     id: "21",
@@ -277,66 +301,6 @@ export const mockEvents = [
     details: "Action Julienne aimed to offer an alternative to the polarized major parties, positioning itself as a liberal conservative option."
   },
   {
-    id: "24",
-    date: "2025-05-26",
-    title: "Royster Spy Debacle",
-    description: "JacobRoyster was revealed to be secretly organizing an international conspiracy called Aegis, infiltrating multiple simulators and micronations.",
-    category: "Crisis",
-    parties: ["Non-partisan"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: [],
-    details: "The Interserver Union exposed Royster's plot showing attempts to control governments across at least 8 nations. Julia was noted as uncompromised. JacobRoyster was promptly banned under the Watchlist Act."
-  },
-  {
-    id: "25",
-    date: "2025-06-01",
-    title: "President Veternitzz",
-    description: "veternitzz became President on June 1, 2025, winning the June 2025 election and serving a 30-day term through July 1.",
-    category: "Election",
-    parties: ["Independent"],
-    type: "election",
-    significance: "high",
-    relatedEvents: ["26"],
-    details: "Veternitzz's presidency represented a period of moderate governance, lasting 30 days in the continuing pattern of relatively brief presidential terms."
-  },
-  {
-    id: "26",
-    date: "2025-07-01",
-    title: "President Noah Jay Sweet",
-    description: "noahjaysweet (TPA) took office on July 1, 2025, after winning the July 2025 election, marking the current (7th) presidency with VP Nepotism.",
-    category: "Election",
-    parties: ["TPA"],
-    type: "election",
-    significance: "high",
-    relatedEvents: [],
-    details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the ongoing democratic governance in the simulation."
-  },
-  {
-    id: "27",
-    date: "2025-03-15",
-    title: "Death of President Blight",
-    description: "Former President Blight (1st President) was found dead in his residence, killed by a sniper's bullet. The assassination shocked the nation and raised immediate security concerns.",
-    category: "Crisis",
-    parties: ["Non-partisan"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["28", "29", "30", "31", "32"],
-    details: "Blight, who served as Julia's first President from January 12, 2025, was assassinated at his private residence by an unknown sniper. The precision of the attack and the lack of any clear motive suggested professional involvement. Security forces found no evidence at the scene, and the killer's identity remained unknown. The assassination sent shockwaves through the political establishment, as it marked the first time a former president had been killed. Emergency security measures were immediately implemented for all current and former government officials."
-  },
-  {
-    id: "28",
-    date: "2025-04-20",
-    title: "Death of President Medieval",
-    description: "Former President Medieval (2nd President) was assassinated by a car bomb outside his office building. The similarity to Blight's murder sparked fears of a coordinated conspiracy.",
-    category: "Crisis",
-    parties: ["Non-partisan"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["27", "29", "30", "31", "32"],
-    details: "Medieval, who served as the 2nd President from February 17-27, 2025, was killed when a car bomb exploded as he approached his vehicle. The sophisticated explosive device was remotely detonated with military precision. Like Blight's assassination, no group claimed responsibility and no clear motive was established. The method differed from the sniper attack on Blight, suggesting the assassins were skilled in multiple killing techniques. Security experts began warning of a possible conspiracy targeting former presidents, leading to increased protection for all former and current officials."
-  },
-  {
     id: "29",
     date: "2025-05-10",
     title: "Death of President Angstrom",
@@ -361,6 +325,30 @@ export const mockEvents = [
     details: "Toast, who served as the 4th President for 42 days (February 28 - April 11, 2025), died when his vehicle's brakes failed on a mountain road, causing him to crash into a ravine. Initial reports suggested mechanical failure, but forensic analysis revealed sophisticated sabotage of the brake system. The 'accident' was staged to look natural, but investigators found evidence of professional tampering. With four former presidents now dead, mass panic swept across the nation. Citizens demanded answers about who was systematically eliminating former leaders, and conspiracy theories spread rapidly through social media and public forums."
   },
   {
+    id: "24",
+    date: "2025-05-26",
+    title: "Royster Spy Debacle",
+    description: "JacobRoyster was revealed to be secretly organizing an international conspiracy called Aegis, infiltrating multiple simulators and micronations.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: [],
+    details: "The Interserver Union exposed Royster's plot showing attempts to control governments across at least 8 nations. Julia was noted as uncompromised. JacobRoyster was promptly banned under the Watchlist Act."
+  },
+  {
+    id: "25",
+    date: "2025-06-01",
+    title: "President Veternitzz",
+    description: "veternitzz became President on June 1, 2025, winning the June 2025 election and serving a 30-day term through July 1.",
+    category: "Election",
+    parties: ["Independent"],
+    type: "election",
+    significance: "high",
+    relatedEvents: ["26"],
+    details: "Veternitzz's presidency represented a period of moderate governance, lasting 30 days in the continuing pattern of relatively brief presidential terms."
+  },
+  {
     id: "31",
     date: "2025-06-15",
     title: "Death of President Junk_Trash",
@@ -371,6 +359,18 @@ export const mockEvents = [
     significance: "high",
     relatedEvents: ["27", "28", "29", "30", "32"],
     details: "Junk_Trash, who served as the 5th President for 50 days (April 11 - June 1, 2025), was killed by a precision drone strike while attending a private party at a friend's estate. The small, sophisticated drone delivered an explosive payload directly to his location before immediately self-destructing. The attack demonstrated advanced technology and intelligence capabilities, suggesting state-level resources. With five former presidents now dead, the government declared a national security emergency. The systematic nature of the killings - using different methods each time - indicated a highly organized group with extensive planning and resources."
+  },
+  {
+    id: "26",
+    date: "2025-07-01",
+    title: "President Noah Jay Sweet",
+    description: "noahjaysweet (TPA) took office on July 1, 2025, after winning the July 2025 election, marking the current (7th) presidency with VP Nepotism.",
+    category: "Election",
+    parties: ["TPA"],
+    type: "election",
+    significance: "high",
+    relatedEvents: [],
+    details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the ongoing democratic governance in the simulation."
   },
   {
     id: "32",
@@ -384,6 +384,7 @@ export const mockEvents = [
     relatedEvents: ["27", "28", "29", "30", "31"],
     details: "Veternitzz, who had just completed his 30-day presidency (June 1 - July 1, 2025), was killed by a sniper while delivering a farewell speech at a public event. The shot came from over 800 meters away, demonstrating exceptional marksmanship. With this assassination, all six former presidents were now dead, completing what appeared to be a systematic elimination campaign. The timing - just four days after Noah Jay Sweet took office - suggested the group had waited to ensure all former presidents were out of power before completing their mission. The nation was in complete panic, with many calling for martial law and demanding immediate answers about who had orchestrated the unprecedented killing spree."
   }
+];
 ];
 
 export const parties = [
