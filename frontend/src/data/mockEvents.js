@@ -261,7 +261,7 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "29", "30", "31", "32"],
+    relatedEvents: ["27", "29", "30", "31", "32", "33"],
     details: "Medieval, who served as the 2nd President from February 17-27, 2025, was killed when a car bomb exploded as he approached his vehicle. The sophisticated explosive device was remotely detonated with military precision. Like Blight's assassination, no group claimed responsibility and no clear motive was established. The method differed from the sniper attack on Blight, suggesting the assassins were skilled in multiple killing techniques. Security experts began warning of a possible conspiracy targeting former presidents, leading to increased protection for all former and current officials."
   },
   {
