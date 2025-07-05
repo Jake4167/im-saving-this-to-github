@@ -213,8 +213,8 @@ export const mockEvents = [
     parties: ["ISD"],
     type: "election",
     significance: "high",
-    relatedEvents: ["17", "19"],
-    details: "Toast's presidency was marked by significant stability compared to previous short-lived administrations, lasting 42 days and overseeing important constitutional developments."
+    relatedEvents: ["17", "19", "31"],
+    details: "Toast's presidency was marked by significant stability compared to previous short-lived administrations, lasting 42 days and overseeing important constitutional developments. Unknown to others at the time, Toast secretly ordered the construction of an underground survival bunker during his term as a contingency measure."
   },
   {
     id: "19",
