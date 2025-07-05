@@ -309,68 +309,8 @@ export const mockEvents = [
     parties: ["TPA"],
     type: "election",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "30"],
-    details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing what would become the final presidential administration in the simulation before its ultimate destruction."
-  },
-  {
-    id: "27",
-    date: "2025-07-06",
-    title: "Capital Storm Crisis",
-    description: "Rac supporters, claiming election fraud, stormed the capital building in a dramatic uprising, forcing the evacuation of President Noah Jay Sweet, VP Nepotism, and TPA members.",
-    category: "Crisis",
-    parties: ["Rac Supporters"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["26", "28", "29", "30"],
-    details: "In a shocking escalation of political tensions, supporters of defeated presidential candidate Rac organized a massive protest that turned into a capital storming incident. Claiming widespread election fraud in the July 2025 election, hundreds of Rac supporters breached security and occupied the capital building for several hours. President Noah Jay Sweet, Vice President Nepotism, and TPA members were forced to evacuate to secure locations. The crisis led to a complete shutdown of government operations and raised serious questions about the stability of the democratic system. Security forces eventually regained control, but the event marked a turning point in the simulation's political landscape and the beginning of the end for democratic governance."
-  },
-  {
-    id: "28",
-    date: "2025-07-10",
-    title: "Civil War Erupts",
-    description: "Armed conflict broke out between Rac supporters and NoahJaySweet loyalists, plunging the Democratic Simulation into civil war as both factions claimed legitimate authority.",
-    category: "Crisis",
-    parties: ["Rac Supporters", "TPA"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["26", "27", "29", "30"],
-    details: "Following the Capital Storm Crisis, tensions escalated dramatically as Rac supporters refused to recognize the legitimacy of President Noah Jay Sweet's government. Armed militias formed on both sides, with Rac supporters establishing a parallel government claiming to be the 'true' Democratic Simulation authority. NoahJaySweet loyalists, backed by TPA members and government forces, fought to maintain constitutional order. The conflict divided the simulation into two warring factions, with battles erupting across multiple regions. Infrastructure was severely damaged, democratic institutions collapsed, and the rule of law completely broke down. The civil war created a power vacuum that would ultimately enable Jake's rise to power and set the stage for the final nuclear catastrophe."
-  },
-  {
-    id: "29",
-    date: "2025-07-15",
-    title: "Jake Coup",
-    description: "Jake successfully overthrew the Democratic Simulation government in a dramatic coup, establishing a dictatorship and ending the democratic experiment.",
-    category: "Crisis",
-    parties: ["Non-partisan"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["26", "27", "28", "30"],
-    details: "In a shocking turn of events, Jake seized control of the Democratic Simulation through a well-coordinated coup d'état. The takeover occurred during the chaos of the ongoing civil war between Rac supporters and NoahJaySweet loyalists, with Jake declaring the end of democratic governance and establishing himself as the supreme leader. Exploiting the power vacuum created by the civil conflict, Jake's forces moved swiftly to capture key strategic locations and neutralize both warring factions. This event marked the conclusion of the democratic experiment and the beginning of authoritarian rule. All political parties were dissolved, elections suspended, and the constitution declared null and void."
-  },
-  {
-    id: "30",
-    date: "2025-07-20",
-    title: "Nuclear Apocalypse",
-    description: "The three warring factions - Rac supporters, NoahJaySweet loyalists, and Jake's regime - acquired nuclear weapons, leading to mutual destruction and the complete annihilation of the Democratic Simulation world.",
-    category: "Crisis",
-    parties: ["Rac Supporters", "TPA", "Non-partisan"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["27", "28", "29", "31"],
-    details: "In the final catastrophic chapter of the Democratic Simulation, the three-way conflict escalated beyond all control when each faction secretly acquired nuclear weapons. Rac supporters, still claiming to be the legitimate government, obtained nuclear capabilities through underground networks. NoahJaySweet loyalists and remaining TPA forces secured their own nuclear arsenal to defend against both Jake's dictatorship and Rac's rebellion. Jake's authoritarian regime, paranoid about losing power, rapidly expanded their nuclear program. The fragile balance of terror lasted only days before a miscalculation triggered the first nuclear exchange. Within hours, all three factions had launched their entire arsenals in a devastating chain reaction of mutual assured destruction. The Democratic Simulation world was reduced to radioactive ash, marking the absolute end of the political experiment. No survivors remained to rebuild, and the once-thriving democratic society became a cautionary tale of how political division can lead to ultimate annihilation."
-  },
-  {
-    id: "31",
-    date: "2025-07-25",
-    title: "Return of Former President Toast",
-    description: "In a miraculous turn of events, former President Toast emerged from a hidden underground bunker, having survived the nuclear apocalypse, and declared the restoration of democratic government.",
-    category: "Crisis",
-    parties: ["ISD"],
-    type: "crisis",
-    significance: "high",
-    relatedEvents: ["18", "30"],
-    details: "Five days after the nuclear apocalypse that seemingly ended all life in the Democratic Simulation, former President Toast_toast123 (ISD) emerged from a secret underground bunker that had been constructed during his presidency as a contingency measure. Toast, who had served as the 4th President and was known for his longest tenure of 42 days, had somehow anticipated the catastrophic events and prepared for the worst-case scenario. Upon emerging into the radioactive wasteland, Toast immediately declared himself the legitimate successor government and began broadcasting messages calling for any survivors to rally under the restored democratic banner. Using advanced radiation-resistant communication equipment from his bunker, Toast proclaimed the 'Phoenix Restoration' - a new democratic order rising from the ashes of the old simulation. His survival and return sparked both hope and controversy among the few scattered survivors, with some viewing him as a savior and others as an opportunist exploiting the apocalypse for power. This unprecedented event marked either the beginning of democratic restoration or the final act of political theater in the ruins of civilization."
+    relatedEvents: [],
+    details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the ongoing democratic governance in the simulation."
   }
 ];
 
