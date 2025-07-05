@@ -419,6 +419,18 @@ export const mockEvents = [
     significance: "high",
     relatedEvents: ["33", "34"],
     details: "In an unprecedented move following the terrorist attacks on election day, the Emergency Electoral Commission announced the results of the disrupted presidential election after counting votes from secure polling stations that remained operational. President Noah Jay Sweet (TPA) was declared the winner with 4,235,891 votes (58.7%), defeating former Vice President The Devourer of Intelligence (SDP) who received 2,982,109 votes (41.3%). ELECTION RESULTS BAR GRAPH: Noah Jay Sweet (TPA): 58.7% | 4,235,891 votes ████████████████████████████████████████████████████████████ The Devourer of Intelligence (SDP): 41.3% | 2,982,109 votes ██████████████████████████████████████████ Total Valid Votes: 7,218,000 | Voter Turnout: 52.4% (significantly reduced from expected 78% due to terrorist attacks). The election was marked by the lowest turnout in Julia's democratic history, with millions unable to vote due to polling station closures, security concerns, and ongoing violence. Many regions controlled by Constitutional Purifier insurgents recorded zero votes. Despite winning, President Sweet's legitimacy was immediately questioned by opposition parties and insurgent groups, who claimed the election was invalid due to the widespread disruption. The victory was particularly notable given the crisis context, with Sweet's strong performance attributed to a 'rally around the flag' effect as citizens supported the incumbent during the national emergency."
+  },
+  {
+    id: "36",
+    date: "2025-08-15",
+    title: "President Noah Jay Sweet and Nepotism are hanged by Rac Supporters",
+    description: "President Noah Jay Sweet and Vice President Nepotism were publicly executed by hanging by supporters of Rac, ending their administration and plunging the nation into complete chaos.",
+    category: "Crisis",
+    parties: ["TPA", "Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["26", "33", "34", "35"],
+    details: "In a shocking turn of events that marked the complete collapse of democratic governance in Julia, President Noah Jay Sweet and Vice President Nepotism were captured and publicly hanged by a militant group calling themselves 'Rac Supporters' on August 15, 2025. The execution took place in the central square of the capital at 3:47 PM, witnessed by thousands of onlookers and broadcast live across the nation. The Rac Supporters, a previously unknown extremist faction, claimed to be acting in revenge for the systematic elimination of former presidents and the failure of the current government to maintain order during the Constitutional Purifier insurgency. The group's leader, identifying himself only as 'The Avenger of Rac,' declared that Sweet and Nepotism had 'failed to protect the people and allowed the nation to descend into anarchy.' The public execution was carried out with makeshift gallows erected in the town square, with both leaders forced to make final statements before their deaths. President Sweet's last words were reportedly 'May Julia find peace after our failures,' while Vice President Nepotism remained silent. The hangings were met with mixed reactions from the public - some cheered the end of what they saw as a failed administration, while others wept for the complete breakdown of constitutional order. With no clear line of succession and the government structure completely shattered, Julia fell into absolute chaos with multiple factions claiming authority across different regions of the country."
   }
 ];
 
