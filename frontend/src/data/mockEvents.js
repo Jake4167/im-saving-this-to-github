@@ -405,8 +405,20 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "30", "31", "32", "33"],
+    relatedEvents: ["27", "28", "29", "30", "31", "32", "33", "35"],
     details: "In a shocking escalation that revealed the true scope of The Constitutional Purifiers movement, what intelligence agencies had believed was a small terrorist cell was exposed as a massive 2-million strong insurgency spanning the entire nation. At 6:23 AM, a stolen military tank crashed through the reinforced barriers of the main Julian capitol building, detonating a massive explosive payload in the central rotunda during morning legislative sessions. The attack killed 50 high-ranking government officials, including 12 senators, 8 cabinet members, and 30 staff members, while wounding 243 others in the devastating blast and subsequent building collapse. Simultaneously, coordinated insurgent uprisings erupted in all major cities across Julia, with armed Constitutional Purifier militias seizing control of government buildings, police stations, and military depots. The insurgents, wearing distinctive black and gold uniforms, demonstrated sophisticated military tactics and equipment, suggesting years of secret preparation and organization. Communication networks were systematically targeted, leaving entire regions cut off from government control. President Noah Jay Sweet and surviving government officials were evacuated to an undisclosed secure location as the capital fell under insurgent siege. The revelation that 2 million citizens - nearly 15% of the population - had joined the extremist movement sent shockwaves through the remaining loyal government forces and international observers."
+  },
+  {
+    id: "35",
+    date: "2025-07-29",
+    title: "Emergency Election Results Announced",
+    description: "Despite the terrorist attacks, emergency election results were announced showing President Noah Jay Sweet (TPA) winning re-election with 58.7% of the vote against The Devourer of Intelligence (SDP) who received 41.3%. However, turnout was severely impacted by the attacks.",
+    category: "Election",
+    parties: ["TPA", "SDP"],
+    type: "election",
+    significance: "high",
+    relatedEvents: ["33", "34"],
+    details: "In an unprecedented move following the terrorist attacks on election day, the Emergency Electoral Commission announced the results of the disrupted presidential election after counting votes from secure polling stations that remained operational. President Noah Jay Sweet (TPA) was declared the winner with 4,235,891 votes (58.7%), defeating former Vice President The Devourer of Intelligence (SDP) who received 2,982,109 votes (41.3%). ELECTION RESULTS BAR GRAPH: Noah Jay Sweet (TPA): 58.7% | 4,235,891 votes ████████████████████████████████████████████████████████████ The Devourer of Intelligence (SDP): 41.3% | 2,982,109 votes ██████████████████████████████████████████ Total Valid Votes: 7,218,000 | Voter Turnout: 52.4% (significantly reduced from expected 78% due to terrorist attacks). The election was marked by the lowest turnout in Julia's democratic history, with millions unable to vote due to polling station closures, security concerns, and ongoing violence. Many regions controlled by Constitutional Purifier insurgents recorded zero votes. Despite winning, President Sweet's legitimacy was immediately questioned by opposition parties and insurgent groups, who claimed the election was invalid due to the widespread disruption. The victory was particularly notable given the crisis context, with Sweet's strong performance attributed to a 'rally around the flag' effect as citizens supported the incumbent during the national emergency."
   }
 ];
 
