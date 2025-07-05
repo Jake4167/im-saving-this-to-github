@@ -381,8 +381,20 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "30", "31"],
+    relatedEvents: ["27", "28", "29", "30", "31", "33"],
     details: "Veternitzz, who had just completed his 30-day presidency (June 1 - July 1, 2025), was killed by a sniper while delivering a farewell speech at a public event. The shot came from over 800 meters away, demonstrating exceptional marksmanship. With this assassination, all six former presidents were now dead, completing what appeared to be a systematic elimination campaign. The timing - just four days after Noah Jay Sweet took office - suggested the group had waited to ensure all former presidents were out of power before completing their mission. The nation was in complete panic, with many calling for martial law and demanding immediate answers about who had orchestrated the unprecedented killing spree."
+  },
+  {
+    id: "33",
+    date: "2025-07-28",
+    title: "Election Day Terrorist Attacks",
+    description: "During the special presidential election between incumbent Noah Jay Sweet and former VP The Devourer of Intellegence, coordinated terrorist attacks struck multiple polling stations. High-ranking government officials were killed, and the perpetrators were revealed to be the same group behind the presidential assassinations.",
+    category: "Crisis",
+    parties: ["TPA", "SDP"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "29", "30", "31", "32"],
+    details: "On what should have been a historic election day between President Noah Jay Sweet (TPA) and former Vice President The Devourer of Intellegence (SDP), the nation was plunged into chaos when coordinated terrorist attacks struck 12 major polling stations across the country. The attacks began at 9:47 AM with simultaneous explosions at voting centers in the capital district, followed by sniper attacks targeting election officials and security personnel. Among the casualties were Secretary of Elections Maria Santos, Supreme Court Justice Robert Chen, and Senate Majority Leader Thompson Williams, all killed by precision sniper fire. The attackers used the same sophisticated methods seen in the presidential assassinations: military-grade explosives, untraceable poisons, and professional marksmanship. At 2:15 PM, a manifesto was broadcast on all major networks by a group calling themselves 'The Constitutional Purifiers' - finally revealing the identity of the organization behind the systematic elimination of former presidents. The group declared their intention to 'cleanse the corrupted democratic system' and establish a new order. The election was immediately suspended, martial law was declared, and a nationwide manhunt began for the terrorist organization that had terrorized the nation for months."
   }
 ];
 
