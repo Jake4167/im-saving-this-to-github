@@ -309,7 +309,7 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "30", "31", "32"],
+    relatedEvents: ["27", "28", "30", "31", "32", "33"],
     details: "Angstrom, who served the shortest presidency in history (13 hours on February 27, 2025), was assassinated by an untraceable poison while dining at a popular restaurant. The toxin was administered through his food and acted within minutes. Security cameras showed no suspicious activity, and the poison was later identified as a rare, military-grade substance. With three different assassination methods used (sniper, car bomb, poison), investigators confirmed they were dealing with a highly skilled and well-resourced group. Mass panic began to spread as citizens realized that no former president was safe, and the current government faced unprecedented security challenges."
   },
   {
