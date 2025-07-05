@@ -321,7 +321,7 @@ export const mockEvents = [
     parties: ["Non-partisan"],
     type: "crisis",
     significance: "high",
-    relatedEvents: ["27", "28", "29", "31", "32"],
+    relatedEvents: ["27", "28", "29", "31", "32", "33"],
     details: "Toast, who served as the 4th President for 42 days (February 28 - April 11, 2025), died when his vehicle's brakes failed on a mountain road, causing him to crash into a ravine. Initial reports suggested mechanical failure, but forensic analysis revealed sophisticated sabotage of the brake system. The 'accident' was staged to look natural, but investigators found evidence of professional tampering. With four former presidents now dead, mass panic swept across the nation. Citizens demanded answers about who was systematically eliminating former leaders, and conspiracy theories spread rapidly through social media and public forums."
   },
   {
