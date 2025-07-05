@@ -311,6 +311,78 @@ export const mockEvents = [
     significance: "high",
     relatedEvents: [],
     details: "Noah Jay Sweet leads the current TPA government with Vice President Nepotism, representing the ongoing democratic governance in the simulation."
+  },
+  {
+    id: "27",
+    date: "2025-03-15",
+    title: "Death of President Blight",
+    description: "Former President Blight (1st President) was found dead in his residence, killed by a sniper's bullet. The assassination shocked the nation and raised immediate security concerns.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["28", "29", "30", "31", "32"],
+    details: "Blight, who served as Julia's first President from January 12, 2025, was assassinated at his private residence by an unknown sniper. The precision of the attack and the lack of any clear motive suggested professional involvement. Security forces found no evidence at the scene, and the killer's identity remained unknown. The assassination sent shockwaves through the political establishment, as it marked the first time a former president had been killed. Emergency security measures were immediately implemented for all current and former government officials."
+  },
+  {
+    id: "28",
+    date: "2025-04-20",
+    title: "Death of President Medieval",
+    description: "Former President Medieval (2nd President) was assassinated by a car bomb outside his office building. The similarity to Blight's murder sparked fears of a coordinated conspiracy.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "29", "30", "31", "32"],
+    details: "Medieval, who served as the 2nd President from February 17-27, 2025, was killed when a car bomb exploded as he approached his vehicle. The sophisticated explosive device was remotely detonated with military precision. Like Blight's assassination, no group claimed responsibility and no clear motive was established. The method differed from the sniper attack on Blight, suggesting the assassins were skilled in multiple killing techniques. Security experts began warning of a possible conspiracy targeting former presidents, leading to increased protection for all former and current officials."
+  },
+  {
+    id: "29",
+    date: "2025-05-10",
+    title: "Death of President Angstrom",
+    description: "Former President Angstrom (3rd President) was poisoned at a public restaurant. The third presidential assassination in two months confirmed a deadly pattern targeting all former presidents.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "30", "31", "32"],
+    details: "Angstrom, who served the shortest presidency in history (13 hours on February 27, 2025), was assassinated by an untraceable poison while dining at a popular restaurant. The toxin was administered through his food and acted within minutes. Security cameras showed no suspicious activity, and the poison was later identified as a rare, military-grade substance. With three different assassination methods used (sniper, car bomb, poison), investigators confirmed they were dealing with a highly skilled and well-resourced group. Mass panic began to spread as citizens realized that no former president was safe, and the current government faced unprecedented security challenges."
+  },
+  {
+    id: "30",
+    date: "2025-05-25",
+    title: "Death of President Toast",
+    description: "Former President Toast (4th President) was killed by a staged 'accident' when his vehicle was sabotaged. The fourth assassination in three months caused widespread panic and emergency lockdowns.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "29", "31", "32"],
+    details: "Toast, who served as the 4th President for 42 days (February 28 - April 11, 2025), died when his vehicle's brakes failed on a mountain road, causing him to crash into a ravine. Initial reports suggested mechanical failure, but forensic analysis revealed sophisticated sabotage of the brake system. The 'accident' was staged to look natural, but investigators found evidence of professional tampering. With four former presidents now dead, mass panic swept across the nation. Citizens demanded answers about who was systematically eliminating former leaders, and conspiracy theories spread rapidly through social media and public forums."
+  },
+  {
+    id: "31",
+    date: "2025-06-15",
+    title: "Death of President Junk_Trash",
+    description: "Former President Junk_Trash (5th President) was assassinated by a drone strike while attending a private gathering. The fifth presidential death confirmed fears of a systematic elimination campaign.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "29", "30", "32"],
+    details: "Junk_Trash, who served as the 5th President for 50 days (April 11 - June 1, 2025), was killed by a precision drone strike while attending a private party at a friend's estate. The small, sophisticated drone delivered an explosive payload directly to his location before immediately self-destructing. The attack demonstrated advanced technology and intelligence capabilities, suggesting state-level resources. With five former presidents now dead, the government declared a national security emergency. The systematic nature of the killings - using different methods each time - indicated a highly organized group with extensive planning and resources."
+  },
+  {
+    id: "32",
+    date: "2025-07-05",
+    title: "Death of President Veternitzz",
+    description: "Former President Veternitzz (6th President) was assassinated just days after leaving office, shot by a sniper while giving a speech. The sixth and final presidential assassination completed the systematic elimination of all former presidents.",
+    category: "Crisis",
+    parties: ["Non-partisan"],
+    type: "crisis",
+    significance: "high",
+    relatedEvents: ["27", "28", "29", "30", "31"],
+    details: "Veternitzz, who had just completed his 30-day presidency (June 1 - July 1, 2025), was killed by a sniper while delivering a farewell speech at a public event. The shot came from over 800 meters away, demonstrating exceptional marksmanship. With this assassination, all six former presidents were now dead, completing what appeared to be a systematic elimination campaign. The timing - just four days after Noah Jay Sweet took office - suggested the group had waited to ensure all former presidents were out of power before completing their mission. The nation was in complete panic, with many calling for martial law and demanding immediate answers about who had orchestrated the unprecedented killing spree."
   }
 ];
 
