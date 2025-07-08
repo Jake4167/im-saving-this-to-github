@@ -243,8 +243,8 @@ export const mockEvents = [
   {
     id: "20",
     date: "2025-04-11",
-    title: "President Junk_Trash",
-    description: "junk_trash (TPA) assumed the presidency on Apr 11, 2025, winning the May 2025 election and serving a 50-day term through June 1.",
+    title: "President Jash",
+    description: "Jash (TPA) assumed the presidency on Apr 11, 2025, winning the May 2025 election and serving a 50-day term through June 1.",
     category: "Election",
     parties: ["TPA"],
     type: "election",
