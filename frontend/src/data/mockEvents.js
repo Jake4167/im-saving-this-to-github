@@ -448,7 +448,7 @@ export const mockEvents = [
     id: "38",
     date: "2025-08-20",
     title: "Toast crashes out and threatens to delete the entire server",
-    description: "After receiving backlash for his previous concerns about violent content, server owner Toast_toast123 had a complete meltdown in the general chat, posting dozens of messages in all caps and threatening to delete the entire Discord server if the community didn't change.",
+    description: "After receiving backlash for his previous concerns about violent content, server owner Toast_toast123 had a complete meltdown in the general chat, posting dozens of messages in all caps listing every detailed presidential assassination that had been written, and threatening to delete the entire Discord server.",
     category: "Crisis",
     parties: ["Non-partisan"],
     type: "crisis",
