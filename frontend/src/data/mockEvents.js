@@ -250,7 +250,7 @@ export const mockEvents = [
     type: "election",
     significance: "high",
     relatedEvents: ["21"],
-    details: "Junk_trash's presidency marked a period of relative stability with the longest term since the early presidencies, lasting 50 days."
+    details: "Jash's presidency marked a period of relative stability with the longest term since the early presidencies, lasting 50 days."
   },
   {
     id: "28",
