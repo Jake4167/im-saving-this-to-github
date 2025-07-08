@@ -351,8 +351,8 @@ export const mockEvents = [
   {
     id: "31",
     date: "2025-06-15",
-    title: "Death of President Junk_Trash",
-    description: "Former President Junk_Trash (5th President) was assassinated by a drone strike while attending a private gathering. The fifth presidential death confirmed fears of a systematic elimination campaign.",
+    title: "Death of President Jash",
+    description: "Former President Jash (5th President) was assassinated by a drone strike while attending a private gathering. The fifth presidential death confirmed fears of a systematic elimination campaign.",
     category: "Crisis",
     parties: ["Non-partisan"],
     type: "crisis",
